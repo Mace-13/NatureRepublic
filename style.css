@@ -224,3 +224,129 @@ nav{
     background-image: url("img/card4.png");
     background-size: contain;
 }
+/**** Slide 3 */
+.careBox{
+    width: 100%;
+    background-color: #566070;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+.leftBox{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leftBox ul{
+
+}
+.leftBox ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 75px;
+    width: 405px;
+    list-style: none;
+    border-top: 1px solid #89AD91;
+    border-right: 27px solid rgba(255, 255, 255, .0);
+    /*border-bottom: 1px solid #89AD91;*/
+    cursor:pointer;
+    text-transform: uppercase;
+}
+.leftBox ul li:nth-child(1){
+    border-right: 27px solid #89AD91;
+}
+.leftBox ul li:last-child{
+    border-bottom: 1px solid #89AD91;
+}
+.folderBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.folderBox h1{
+    color: #89AD91;
+}
+.folderBox .contentBox{
+    max-width: 609px;
+}
+.folderBox p{
+    color: white;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+.folderBox div ul li{
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.folderBox .contentBox .btnFolderBox{
+    color: white;
+    height: 60px;
+    max-width: 609px;
+    background-color: #89AD91;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.contentBox h1{
+    text-align: center;
+    font-family: 'Sail', cursive;
+}
+.rightBox{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.rightBox div{
+    display: flex;
+    justify-content: center;
+    width: 620px;
+}
+.decoBox{
+    width: 269px;
+    height: 770px;
+    background-image: url("img/f1.svg");
+}
+@media screen and (max-width: 1350px){
+    .careBox{
+        flex-direction: column;
+        align-items: center;
+    }
+    .folderBox .contentBox{
+        width: 100%;
+    }
+    .folderBox{
+        width: 100%;
+    }
+    .leftBox{
+        width: unset;
+    }
+    .leftBox ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .leftBox ul li{
+        width: 150px;
+        margin-left: 5px;
+    }
+    .leftBox ul li:nth-child(5){
+        border-bottom: 1px solid #89AD91;
+    }
+    .btnFolderBox{
+        margin-bottom: 10px;
+    }
+    .contentBox h1, .contentBox p{
+        text-align: center;
+    }
+    .decoBox{
+        display: none;
+    }
+}
