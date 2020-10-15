@@ -208,21 +208,25 @@ nav{
 .img1{
     background-image: url("img/card1.png");
     background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .img2{
     background-image: url("img/card2.png");
     background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .img3{
     background-image: url("img/card3.png");
     background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .img4{
     background-image: url("img/card4.png");
     background-size: contain;
+    background-repeat: no-repeat;
 }
 /**** Slide 3 */
 .careBox{
