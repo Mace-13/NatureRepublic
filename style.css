@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Sail&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    scroll-behavior: smooth;
+    width:100%;
+    height: 100vh;
+    background-color: #A9BAA0;
+}
+
+.slide{
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+
+}
+
+.container{
+    width: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #ffffff;
+
+}
+
+/*************** Class Color **********/
+
+.backgroundGreen{
+    background-color: #A9BAA0;
+}
+
+
+.colorDarkGreen{
+    color : #6D8869;
+}
+
+.colorGreen{
+    color : #4D793E;
+}
+
+.colorWhite{
+    color : #ffffff;
+}
+
+/*************** HOME **********/
+
+nav{
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar li a{
+    width: 200px;
+    height: 100px;
+    display: block;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.logo{
+    flex: 1;
+}
+
+.navItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 100px;
+    width: 200px;
+    height: 100px;
+
+}
+
+.navItem a{
+    text-decoration:none;
+}
+
+.accueil{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    z-index:70;
+    background-image: url(img/home.png);
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+.boxHome{
+    width: 370px;
+    height: 610px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+.logoHome{
+    width: 100%;
+    height: 410px;
+    background-image: url(img/logo.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.title{
+    width: 100%;
+    height: 200px;
+    line-height: 100px;
+}
+
+.title h1{
+    font-family: 'Sail', cursive;
+    font-size: 55px;
+    text-align: center;
+}
+
+.title h2{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+/*************** CONTACT **********/
+
+#contact{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.haut{
+    width: 100%;
+    height: 50vh;
+}
+
+.bas{
+    width: 100%;
+    height: 50vh;
+}
