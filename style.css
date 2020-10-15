@@ -16,16 +16,13 @@ html, body {
     width: 100%;
     min-height: 100vh;
     overflow: hidden;
-    display: flex;
 
 }
 
 .container{
-    width: 100%;
-    margin-left: 50px;
-    margin-right: 50px;
-    background-color: #ffffff;
-
+    max-width: 1813px;
+    margin: 0 auto;
+    background-color: white;
 }
 
 /*************** Class Color **********/
@@ -34,9 +31,8 @@ html, body {
     background-color: #A9BAA0;
 }
 
-
 .colorDarkGreen{
-    color : #6D8869;
+    color : #727956;
 }
 
 .colorGreen{
@@ -149,9 +145,82 @@ nav{
 .haut{
     width: 100%;
     height: 50vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxCont{
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.boxCont h1{
+    font-family: 'Sail', cursive;
+    font-size: 48px;
+}
+
+.boxCont hr{
+    height: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #727956;
+}
+
+.lotus{
+    width: 350px;
+    height: 68px;
+    background-image: url("img/lotus.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.boxText{
+    width: 900px;
+    height: 150px;
+
+}
+
+.boxText p{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .bas{
     width: 100%;
     height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card{
+    width: 320px;
+    height: 450px;
+}
+
+.img1{
+    background-image: url("img/card1.png");
+    background-size: contain;
+}
+
+.img2{
+    background-image: url("img/card2.png");
+    background-size: contain;
+}
+
+.img3{
+    background-image: url("img/card3.png");
+    background-size: contain;
+}
+
+.img4{
+    background-image: url("img/card4.png");
+    background-size: contain;
 }
