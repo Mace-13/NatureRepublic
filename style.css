@@ -354,3 +354,92 @@ nav{
         display: none;
     }
 }
+
+/*************** GALLERY **********/
+
+#gallery{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.hautGal{
+    width: 100%;
+    height: 25vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxGal{
+    width: 450px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.boxGal h1{
+    font-family: 'Sail', cursive;
+    font-size: 48px;
+}
+
+.boxGal hr{
+    height: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #727956;
+}
+
+.lotusGal{
+    width: 450px;
+    height: 68px;
+    background-image: url("img/lotus.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.basGal{
+    width: 100%;
+    height: 75vh;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-content: center;
+}
+
+.boxImg{
+    width: 800px;
+    height: 320px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.boxImg:nth-child(1){
+    background-image: url("img/pic1.png");
+    background-size: contain;
+    background-position: center;
+}
+
+.boxImg:nth-child(2){
+    background-image: url("img/pic2.png");
+    background-size: contain;
+    background-position: center;
+}
+
+.boxImg:nth-child(3){
+    background-image: url("img/pic3.png");
+    background-size: contain;
+    background-position: center;
+}
+
+.boxImg:nth-child(4){
+    background-image: url("img/pic2.png");
+    background-size: contain;
+    background-position: center;
+}
+
+/*************** FOOTER **********/
