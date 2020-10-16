@@ -420,26 +420,110 @@ nav{
 
 .boxImg:nth-child(1){
     background-image: url("img/pic1.png");
-    background-size: contain;
+    background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .boxImg:nth-child(2){
     background-image: url("img/pic2.png");
-    background-size: contain;
+    background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .boxImg:nth-child(3){
     background-image: url("img/pic3.png");
-    background-size: contain;
+    background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .boxImg:nth-child(4){
     background-image: url("img/pic2.png");
-    background-size: contain;
+    background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 /*************** FOOTER **********/
+
+footer{
+    width: 100%;
+    height: 70vh;
+    background-color: #566070;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.hautFoot{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoFoot{
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+    background-image: url("img/logoWhite.png");
+}
+
+.basFoot{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.boxFoot{
+    width: 500px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxFoot h1{
+    font-family: 'Sail', cursive;
+    margin-bottom: 20px;
+}
+
+.boxFoot hr{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.boxFoot p{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.titleFoot{
+    width: 350px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titleFoot h1{
+    font-family: 'Sail', cursive;
+    margin-bottom: 20px;
+}
+
+.titleFoot hr{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.titleFoot h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
