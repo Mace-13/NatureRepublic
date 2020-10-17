@@ -19,11 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f63873df-a25f-4103-9c7c-495f4fc8f44f" name="Default Changelist" comment="fix slide title - resize logo">
-      <change afterPath="$PROJECT_DIR$/pdf/dépliant 2.jpg" afterDir="false" />
+    <list default="true" id="f63873df-a25f-4103-9c7c-495f4fc8f44f" name="Default Changelist" comment="responsiv">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +52,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -78,7 +77,7 @@
       <workItem from="1602850041106" duration="6429000" />
       <workItem from="1602931977369" duration="7489000" />
       <workItem from="1602958579952" duration="1182000" />
-      <workItem from="1602965397850" duration="7778000" />
+      <workItem from="1602965397850" duration="9368000" />
     </task>
     <task id="LOCAL-00001" summary="fix slide title - resize logo">
       <created>1602958991270</created>
@@ -87,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602958991270</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="responsiv">
+      <created>1602973490217</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602973490217</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,16 +113,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix slide title - resize logo" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix slide title - resize logo" />
+    <MESSAGE value="responsiv" />
+    <option name="LAST_COMMIT_MESSAGE" value="responsiv" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602959006558">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602959006558" />
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602958600454">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="777" y="474" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602973524490">
+      <screen x="0" y="40" width="1920" height="1040" />
     </state>
+    <state x="777" y="474" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.40.1920.1040/0.40.1920.1040@0.40.1920.1040" timestamp="1602973524490" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602958600454" />
     <state x="532" y="237" key="run.anything.popup" timestamp="1602850224247">
       <screen x="0" y="0" width="1920" height="1040" />

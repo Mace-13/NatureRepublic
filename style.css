@@ -213,8 +213,22 @@ nav{
     width: 320px;
     height: 450px;
     margin-bottom: 5px;
+    display: flex;
+    align-items: flex-end;
 }
-
+.card:hover .cardBox{
+    display: flex;
+}
+.cardBox{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    display: none;
+    color: white;
+    background-color: rgba(137, 173, 145, 0.58);
+    font-family: 'Roboto', sans-serif;
+}
 .img1{
     background-image: url("img/card1.png");
     background-size: contain;
@@ -535,6 +549,14 @@ footer{
     .careBox{
         flex-direction: column;
         align-items: center;
+    }
+    .card{
+        height: 200px;
+        background-size: cover;
+    }
+    .cardBox{
+        height: 100px;
+        display: flex;
     }
     .folderBox .contentBox{
         width: 100%;
