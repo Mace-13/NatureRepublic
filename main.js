@@ -4,6 +4,12 @@ let div = document.querySelectorAll('.contentBox');
 
 li.forEach(element => {
     element.addEventListener('click' ,e=>{
+        gsap.from(".contentBox",{
+            duration:0.5,
+            opacity:0,
+            scale:0.01,
+            ease:"ease"
+        })
         e.target.style.borderRight='27px solid #89AD91';
         li.forEach(element=>{
             if(element!==e.target){
@@ -21,3 +27,12 @@ li.forEach(element => {
         query.style.display='block';
     })
 });
+
+gsap.from(".boxHome",{
+    duration:1.5,
+    opacity:0,
+    scale:0.3,
+    ease:"ease"
+})
+
+

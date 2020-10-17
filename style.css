@@ -8,7 +8,7 @@
 html, body {
     scroll-behavior: smooth;
     width:100%;
-    height: 100vh;
+    min-height: 100vh;
     background-color: #A9BAA0;
 }
 
@@ -97,7 +97,7 @@ nav{
 
 .accueil{
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     z-index:70;
@@ -109,7 +109,7 @@ nav{
 
 .boxHome{
     width: 370px;
-    height: 610px;
+    min-height: 610px;
     display: flex;
     flex-direction: column;
     margin-left: 150px;
@@ -118,7 +118,7 @@ nav{
 
 .logoHome{
     width: 100%;
-    height: 251.26px;
+    min-height: 251.26px;
     background-position: center;
     background-image: url(img/logo.svg);
     background-size: contain;
@@ -127,7 +127,7 @@ nav{
 
 .title{
     width: 100%;
-    height: 200px;
+    min-height: 200px;
     line-height: 100px;
 }
 
@@ -152,7 +152,7 @@ nav{
 
 .haut{
     width: 100%;
-    height: 50vh;
+    min-height: 50vh;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -201,16 +201,18 @@ nav{
 
 .bas{
     width: 100%;
-    height: 50vh;
+    min-height: 50vh;
     padding-bottom: 50px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
 .card{
     width: 320px;
     height: 450px;
+    margin-bottom: 5px;
 }
 
 .img1{
@@ -249,8 +251,10 @@ nav{
     justify-content: center;
     align-items: center;
 }
-.leftBox ul{
-
+.btnFolderBox a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
 }
 .leftBox ul li{
     display: flex;
@@ -313,55 +317,20 @@ nav{
 .rightBox{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     padding-bottom: 10px;
     padding-top: 10px;
 }
 .rightBox div{
     display: flex;
     justify-content: center;
-    width: 620px;
 }
 .decoBox{
     width: 269px;
     height: 770px;
     background-image: url("img/f1.svg");
 }
-@media screen and (max-width: 1350px){
-    .careBox{
-        flex-direction: column;
-        align-items: center;
-    }
-    .folderBox .contentBox{
-        width: 100%;
-    }
-    .folderBox{
-        width: 100%;
-    }
-    .leftBox{
-        width: unset;
-    }
-    .leftBox ul {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .leftBox ul li{
-        width: 150px;
-        margin-left: 5px;
-    }
-    .leftBox ul li:nth-child(5){
-        border-bottom: 1px solid #89AD91;
-    }
-    .btnFolderBox{
-        margin-bottom: 10px;
-    }
-    .contentBox h1, .contentBox p{
-        text-align: center;
-    }
-    .decoBox{
-        display: none;
-    }
-}
+
 
 /*************** GALLERY **********/
 
@@ -373,7 +342,7 @@ nav{
 }
 .hautGal{
     width: 100%;
-    height: 25vh;
+    min-height: 25vh;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -455,7 +424,7 @@ nav{
 
 footer{
     width: 100%;
-    height: 576px;
+    min-height: 576px;
     background-color: #566070;
     display: flex;
     flex-direction: column;
@@ -464,7 +433,7 @@ footer{
 
 .hautFoot{
     width: 100%;
-    height: 20vh;
+    min-height: 20vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -480,8 +449,8 @@ footer{
 
 .basFoot{
     width: 100%;
-    height: 50vh;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
@@ -561,4 +530,118 @@ footer{
     margin-right: 10px;
     margin-top: 5px;
 }
-
+/**** media queries ****/
+@media screen and (max-width: 1350px){
+    .careBox{
+        flex-direction: column;
+        align-items: center;
+    }
+    .folderBox .contentBox{
+        width: 100%;
+    }
+    .folderBox{
+        width: 100%;
+    }
+    .leftBox{
+        width: unset;
+    }
+    .leftBox ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .leftBox ul li{
+        width: 150px;
+        margin-left: 5px;
+        border: none;
+    }
+    .leftBox ul li:last-child{
+        border: none;
+    }
+    .rightBox div{
+        justify-content: flex-start;
+        width: 350px;
+    }
+    .btnFolderBox{
+        margin-bottom: 10px;
+    }
+    .contentBox h1, .contentBox p{
+        text-align: center;
+    }
+    .decoBox{
+        display: none;
+    }
+}
+@media all and (max-width: 768px){
+    .boxHome{
+        height: unset;
+        margin-left: 0;
+        margin-top: 0;
+        align-items: center;
+    }
+    .logoHome{
+        margin-top: 50px;
+    }
+    .accueil{
+        justify-content: center;
+    }
+    .boxText{
+        width: unset;
+        height: unset;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    footer{
+        height: 700px;
+    }
+    .boxCont{
+        height: unset;
+        margin-bottom: 15px;
+    }
+    .haut{
+        height: unset;
+        margin-top:15px;
+        margin-bottom: 15px;
+    }
+    .bas{
+        flex-direction: column;
+    }
+    .bas{
+        height: unset;
+        align-items: center;
+    }
+    .card{
+        margin-bottom: 15px;
+    }
+    .hautFoot{
+        height: unset;
+    }
+    .basFoot{
+        height: unset;
+        flex-direction: column;
+    }
+    .boxFoot{
+        height: unset;
+        width: unset;
+    }
+    .titleFoot{
+        display: none;
+    }
+   .colorWhite{
+       margin: 5px;
+   }
+   .boxContact{
+       justify-content: center;
+   }
+    .hautFoot{
+        display: none;
+    }
+    .boxGal h1{
+        font-size: 36px;
+        text-align: center;
+    }
+    .boxCont h1{
+        font-size: 36px;
+        text-align: center;
+    }
+}
