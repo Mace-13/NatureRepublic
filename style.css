@@ -146,7 +146,6 @@ nav{
 
 #contact{
     width: 100%;
-    height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -203,6 +202,7 @@ nav{
 .bas{
     width: 100%;
     height: 50vh;
+    padding-bottom: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -365,13 +365,12 @@ nav{
 
 /*************** GALLERY **********/
 
-#gallery{
+#gallery {
     width: 100%;
-    height: 100vh;
     display: flex;
     flex-direction: column;
+    padding-bottom: 50px;
 }
-
 .hautGal{
     width: 100%;
     height: 25vh;
@@ -410,7 +409,6 @@ nav{
 
 .basGal{
     width: 100%;
-    height: 75vh;
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
