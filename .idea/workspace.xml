@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f63873df-a25f-4103-9c7c-495f4fc8f44f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,6 +69,7 @@
       <workItem from="1602793836902" duration="253000" />
       <workItem from="1602850041106" duration="6429000" />
       <workItem from="1602931977369" duration="7489000" />
+      <workItem from="1602958579952" duration="352000" />
     </task>
     <servers />
   </component>
@@ -89,6 +89,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602958600454">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602958600454" />
     <state x="532" y="237" key="run.anything.popup" timestamp="1602850224247">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
