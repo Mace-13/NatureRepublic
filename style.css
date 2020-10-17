@@ -22,7 +22,7 @@ html, body {
 .container{
     max-width: 1813px;
     margin: 0 auto;
-    background-color: white;
+    padding-bottom: 100px;
 }
 
 /*************** Class Color **********/
@@ -31,12 +31,20 @@ html, body {
     background-color: #A9BAA0;
 }
 
+.backgroundWhite{
+    background-color: white;
+}
+
 .colorDarkGreen{
     color : #727956;
 }
 
 .colorGreen{
-    color : #4D793E;
+    color : #A9BAA0;
+}
+
+.colorForest{
+    color: #618854;
 }
 
 .colorWhite{
@@ -450,7 +458,7 @@ nav{
 
 footer{
     width: 100%;
-    height: 70vh;
+    height: 576px;
     background-color: #566070;
     display: flex;
     flex-direction: column;
@@ -470,6 +478,7 @@ footer{
     height: 150px;
     margin-top: 50px;
     background-image: url("img/logoWhite.png");
+    background-repeat: no-repeat;
 }
 
 .basFoot{
@@ -497,6 +506,7 @@ footer{
 .boxFoot hr{
     width: 100%;
     margin-bottom: 20px;
+
 }
 
 .boxFoot p{
@@ -514,8 +524,8 @@ footer{
 
 .titleFoot h1{
     font-family: 'Sail', cursive;
-    margin-top: 10px;
     margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 .titleFoot hr{
@@ -552,5 +562,6 @@ footer{
 
 .icon{
     margin-right: 10px;
+    margin-top: 5px;
 }
 
