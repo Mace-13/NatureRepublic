@@ -19,11 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f63873df-a25f-4103-9c7c-495f4fc8f44f" name="Default Changelist" comment="responsiv">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="f63873df-a25f-4103-9c7c-495f4fc8f44f" name="Default Changelist" comment="responsiv" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,7 +73,7 @@
       <workItem from="1602850041106" duration="6429000" />
       <workItem from="1602931977369" duration="7489000" />
       <workItem from="1602958579952" duration="1182000" />
-      <workItem from="1602965397850" duration="9368000" />
+      <workItem from="1602965397850" duration="9488000" />
     </task>
     <task id="LOCAL-00001" summary="fix slide title - resize logo">
       <created>1602958991270</created>

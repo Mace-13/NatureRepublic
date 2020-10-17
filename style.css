@@ -629,7 +629,7 @@ footer{
         flex-direction: column;
     }
     .bas{
-        height: unset;
+        height: 910px;
         align-items: center;
     }
     .card{
