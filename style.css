@@ -91,9 +91,65 @@ nav{
 
 }
 
+
 .navItem a{
     text-decoration:none;
 }
+
+/**** NAV BURGER ****/
+.burger{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+}
+
+.burger span{
+    width: 20px;
+    height: 1px;
+    background-color: #618854;
+    margin-bottom: 5px;
+    transition: 0.5s;
+}
+
+.expand{
+    display: flex;
+    flex-direction: row;
+    background-color: #A9BAA0;
+}
+
+.expand .logo{
+    display: none;
+}
+
+.expand ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.expand span{
+    margin-bottom: 0;
+    background-color: white;
+}
+.expand span:nth-child(1){
+    transform: rotate(45deg);
+}
+.expand span:nth-child(2){
+    display: none;
+}
+.expand span:nth-child(3){
+    transform: rotate(-45deg);
+}
+
+/********************/
+
+
 
 .accueil{
     width: 100%;
@@ -594,7 +650,20 @@ footer{
         display: none;
     }
 }
+
+@media all and (max-width: 900px){
+    .burger{
+        display: flex;
+    }
+
+    .navbar{
+        display: none;
+    }
+}
+
 @media all and (max-width: 768px){
+
+
     .boxHome{
         height: unset;
         margin-left: 0;

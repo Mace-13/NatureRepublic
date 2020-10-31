@@ -1,3 +1,10 @@
+let burger = document.querySelector('.burger')
+    burger.addEventListener('click', e=>{
+        document.querySelector('nav').classList.toggle('expand');
+    })
+
+
+
 
 let li = document.querySelectorAll('.leftBox ul li');
 let div = document.querySelectorAll('.contentBox');
