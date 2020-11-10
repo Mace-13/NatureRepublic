@@ -19,12 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f63873df-a25f-4103-9c7c-495f4fc8f44f" name="Default Changelist" comment="responsiv">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="f63873df-a25f-4103-9c7c-495f4fc8f44f" name="Default Changelist" comment="responsiv" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +41,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../wamp64/POO/symfo_test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -84,6 +79,7 @@
       <workItem from="1603449699653" duration="29000" />
       <workItem from="1603980492482" duration="1067000" />
       <workItem from="1604059257088" duration="16000" />
+      <workItem from="1605034917909" duration="19000" />
     </task>
     <task id="LOCAL-00001" summary="fix slide title - resize logo">
       <created>1602958991270</created>
@@ -123,10 +119,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="responsiv" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="687" y="216" key="FileChooserDialogImpl" timestamp="1604059270301">
+    <state x="687" y="216" key="FileChooserDialogImpl" timestamp="1605034935160">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="687" y="216" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604059270301" />
+    <state x="687" y="216" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1605034935160" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602959006558">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
