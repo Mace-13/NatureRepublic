@@ -21,8 +21,16 @@
   <component name="ChangeListManager">
     <list default="true" id="f63873df-a25f-4103-9c7c-495f4fc8f44f" name="Default Changelist" comment="responsiv">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/DSC01505.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/img1.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/img2.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/img3.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/img4.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/pic1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/pic2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/pic3.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +53,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -84,7 +93,11 @@
       <workItem from="1603980492482" duration="1067000" />
       <workItem from="1604059257088" duration="16000" />
       <workItem from="1605034917909" duration="19000" />
-      <workItem from="1605034937830" duration="2513000" />
+      <workItem from="1605034937830" duration="2648000" />
+      <workItem from="1605098860365" duration="32000" />
+      <workItem from="1605348072278" duration="1238000" />
+      <workItem from="1605461559069" duration="10000" />
+      <workItem from="1613042676774" duration="891000" />
     </task>
     <task id="LOCAL-00001" summary="fix slide title - resize logo">
       <created>1602958991270</created>
@@ -124,10 +137,15 @@
     <option name="LAST_COMMIT_MESSAGE" value="responsiv" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="687" y="216" key="FileChooserDialogImpl" timestamp="1605034935160">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605038451045">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="687" y="216" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1605034935160" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1605038451045" />
+    <state x="687" y="216" key="FileChooserDialogImpl" timestamp="1605461566835">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="687" y="216" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1605098890498" />
+    <state x="687" y="216" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605461566835" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605037905877">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

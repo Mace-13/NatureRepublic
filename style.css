@@ -468,28 +468,28 @@ nav{
 }
 
 .boxImg:nth-child(1){
-    background-image: url("img/img1.JPG");
+    background-image: url("img/img1.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .boxImg:nth-child(2){
-    background-image: url("img/img2.JPG");
+    background-image: url("img/img2.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .boxImg:nth-child(3){
-    background-image: url("img/img3.JPG");
+    background-image: url("img/img3.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .boxImg:nth-child(4){
-    background-image: url("img/img4.JPG");
+    background-image: url("img/img4.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
